@@ -115,7 +115,7 @@ def send_email(html_content, sender_email, receiver_email, smtp_server, smtp_por
         server.sendmail(sender_email, receiver_email, msg.as_string())
 
 # Configuración
-log_file = "${WORKSPACE}/${PIPELINE_NAME}/rabbitmq.log"
+log_file = "/home/jenkins/agent/workspace/adminarus/Rutina-Rabbitmq/rabbitmq.log"
 sender_email = "disponibleapps.itgti@arus.com.co"
 receiver_email = "servidores_aplicaciones@arus.com.co"
 smtp_server = "10.0.1.210"
