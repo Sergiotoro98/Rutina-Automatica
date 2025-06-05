@@ -1,5 +1,5 @@
 ###BIN /BASH
-pip install requests
+pip3.10 install --root-user-action=ignore requests
 echo Buenos dias,  > ${WORKSPACE}/${PIPELINE_NAME}/rabbitmq.log
 echo Rutina operativa Rabbitmq > ${WORKSPACE}/${PIPELINE_NAME}/rabbitmq.log
 date "+%Y-%m-%d %H:%M:%S" >> ${WORKSPACE}/${PIPELINE_NAME}/rabbitmq.log
