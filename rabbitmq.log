@@ -1,0 +1,26 @@
+Rutina operativa Rabbitmq
+2025-06-05 10:54:46
+
+Instancia: 10.0.0.70:15672
+Conexiones_Activas: 106
+Mensajes_Totales: 9
+Mensajes_Listos: 7
+Mensajes_No_Confirmados: 2
+Consumidores: 869
+Nodos:
+  - Nodo: rabbit@vbogdtloip31, Memoria Utilizada: 479.73MB, Porcentaje Memoria: 30.50%, Estado_Nodo: Running
+  - Nodo: rabbit@vbogdtloip39, Memoria Utilizada: 249.50MB, Porcentaje Memoria: 15.87%, Estado_Nodo: Running
+  - Nodo: rabbit@vbogdtloip40, Memoria Utilizada: 241.46MB, Porcentaje Memoria: 15.35%, Estado_Nodo: Running
+
+Instancia: 10.0.0.20:15672
+Conexiones_Activas: 94
+Mensajes_Totales: 5
+Mensajes_Listos: 4
+Mensajes_No_Confirmados: 1
+Consumidores: 822
+Nodos:
+  - Nodo: rabbit@vbogdtloip129, Memoria Utilizada: 345.51MB, Porcentaje Memoria: 21.97%, Estado_Nodo: Running
+  - Nodo: rabbit@vbogdtloip130, Memoria Utilizada: 131.04MB, Porcentaje Memoria: 8.33%, Estado_Nodo: Running
+  - Nodo: rabbit@vbogdtloip131, Memoria Utilizada: 140.85MB, Porcentaje Memoria: 8.96%, Estado_Nodo: Running
+
+Cordialmente
