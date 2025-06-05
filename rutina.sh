@@ -1,5 +1,5 @@
 ###BIN /BASH
-
+pip install requests
 echo Buenos dias,  > ${WORKSPACE}/${PIPELINE_NAME}/rabbitmq.log
 echo Rutina operativa Rabbitmq > ${WORKSPACE}/${PIPELINE_NAME}/rabbitmq.log
 date "+%Y-%m-%d %H:%M:%S" >> ${WORKSPACE}/${PIPELINE_NAME}/rabbitmq.log
@@ -9,5 +9,5 @@ echo >> ${WORKSPACE}/${PIPELINE_NAME}/rabbitmq.log
 
 echo Cordialmente >> ${WORKSPACE}/${PIPELINE_NAME}/rabbitmq.log
 
-/usr/local/bin/python3.11 ${WORKSPACE}/${PIPELINE_NAME}/correo.py
+/usr/local/bin/python3.10 ${WORKSPACE}/${PIPELINE_NAME}/correo.py
 
